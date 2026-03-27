@@ -1,0 +1,76 @@
+.app-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 20px;
+  }
+  
+  .gallery-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-info {
+    padding: 15px;
+  }
+  
+  .card-info span {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .card-info h3 {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+  }
+
+  .search-box {
+    margin-bottom: 30px;
+  }
+
+  .search-box input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px ;
+    border-radius: 30px; /*圆角柜形*/
+    border: 2px solid #eee;
+    font-size: 16px;
+    outline none;
+    transition: border-color 0.3s;
+  }
+
+  .search-box{
+    border-color: #007bff; /* 聚焦时变蓝色 */
+  }
+
+  .no-results{
+    text-align: center;
+    color: #999;
+    margin-top: 50px;
+  }
