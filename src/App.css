@@ -61,7 +61,7 @@
     border-radius: 30px; /*圆角柜形*/
     border: 2px solid #eee;
     font-size: 16px;
-    outline none;
+    outline: none;
     transition: border-color 0.3s;
   }
 
